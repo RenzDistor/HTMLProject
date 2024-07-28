@@ -1,0 +1,37 @@
+.background {
+    background-image: url('./assets/snow.gif');
+    background-position : center;
+    background-size:cover;
+    overflow: hidden;
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+  }
+div{
+  margin-top:50px;
+
+}
+
+.center1 {
+  margin-left: 200px;
+  width: 60%;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.row{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1* var(--bs-gutter-y));
+  margin-right: calc(-.5* var(--bs-gutter-x));
+  margin-left: calc(-.5* var(--bs-gutter-x));
+}
